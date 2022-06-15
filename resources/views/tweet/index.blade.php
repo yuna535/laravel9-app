@@ -9,6 +9,7 @@
   </head>
   <body>
     <h1>つぶやきアプリ</h1>
+    @auth
     <div>
       <p>投稿フォーム</p>
       @if (session('feedback.success'))
@@ -40,5 +41,6 @@
       </details>
       @endforeach
     </div>
+    @endauth
   </body>
 </html>
