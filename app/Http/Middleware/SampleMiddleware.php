@@ -17,7 +17,8 @@ class SampleMiddleware
     public function handle(Request $request, Closure $next)
     {
         // controllerで実行される前に処理を挟みたい場合はここに記述
-        return $next($request);
+        $result = $next($request);
         // controllerで実行される後に処理を挟みたい場合はここに記述
+        return $result;
     }
 }
