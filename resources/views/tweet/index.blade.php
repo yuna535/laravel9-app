@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
     maximum-scale=1.0, minimum-scale=">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+    <script src="{{ mix('/css/app.css') }}"></script>
     <title>つぶやきアプリ</title>
   </head>
   <body>
