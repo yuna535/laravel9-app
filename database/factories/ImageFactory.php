@@ -24,5 +24,6 @@ class ImageFactory extends Factory
         return [
             'name' => 'スクリーンショット 2022-06-21 23.20.30.png'
         ];
+        // 'name' => $this->faker->image(storage_path('app/public/images'), 640, 480, null, false)
     }
 }
